@@ -1,13 +1,13 @@
-### qsexpand
+# qsexpand package
 Fast q series expander program for Maxima Computer Algebra System
 
-# Install
+## Install
 Assume you already install maxima-asdf available from [maxima-asdf](https://github.com/robert-dodier/maxima-asdf), the qsexpand can be installed directly from github:
 
 	(%i0) install_github("YasuakiHonda","qsexpand","master")$
 	(%i1) asdf_load("qsexpand");
 
-# Example use
+## Example use
     (%i3) q*product((1-q^n)^24,n,1,inf);
                                      inf
                                     /===\
@@ -21,7 +21,7 @@ Assume you already install maxima-asdf available from [maxima-asdf](https://gith
                9           10           11           12           13           14
      - 113643 q  - 115920 q   + 534612 q   - 370944 q   - 577738 q   + 401856 q
 
-# How to use
+## Documentation
 Function qsexpand(qexp, degree)
 > ***qexp:*** infinite product of a univariate polynomial of variable **q** and index variable **n**, and number of terms does not depende on **n**. 
 >
