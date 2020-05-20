@@ -22,9 +22,9 @@ Assume you already install maxima-asdf available from [maxima-asdf](https://gith
      - 113643 q  - 115920 q   + 534612 q   - 370944 q   - 577738 q   + 401856 q
 
 ## Documentation
-Function qsexpand(qexp, degree)
+Function ***qsexpand(qexp, degree)***
 > ***qexp:*** infinite product of a univariate polynomial of variable **q** and index variable **n**, and number of terms does not depende on **n**. 
 >
 > ***degree:*** natural number specifying the maxima degree of the expanded polynomial
 
-qsexpand expands the infinite product formula ***qexp*** into a finite degree polynomial up to ***degree***. As specified, the syntax of the ***qexp*** is quite limited, so use with caution.
+***qsexpand*** expands the infinite product formula ***qexp*** into a finite degree polynomial up to ***degree***-1. As specified, the syntax of the ***qexp*** is quite limited, so use with caution.
