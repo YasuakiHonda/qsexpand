@@ -23,7 +23,7 @@ Assume you already install maxima-asdf available from [maxima-asdf](https://gith
 
 ## Documentation
 Function ***qsexpand(qexp, degree)***
-> ***qexp:*** infinite product of a univariate polynomial of variable **q** and index variable **n**, and number of terms does not depende on **n**. 
+> ***qexp:*** infinite product of a univariate polynomial of variable **q** and index variable **n**, and number of terms does not depende on **n**. ***qexp*** can also be an infinite product with multiplying with **q**, just like the above example.
 >
 > ***degree:*** natural number specifying the maxima degree of the expanded polynomial
 
